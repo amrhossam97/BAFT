@@ -1,0 +1,198 @@
+@font-face {
+  font-family: geHeritageOne;
+  src: url(../fonts/ge-heritag/GEHeritageOneBold.ttf);
+}
+@font-face {
+  font-family: Tajawal;
+  src: url(../fonts/Tajawal/Tajawal-Bold.ttf);
+}
+@font-face {
+  font-family: aArtPaper;
+  src: url(../fonts/a-art-paper-font/ArtPaper-qZK01.ttf);
+}
+@font-face {
+  font-family: 18khebratmusamimbold;
+  src: url(../fonts/18KhebratMusamimBold/18KhebratMusamimBold.ttf);
+}
+* {
+  font-family: "geHeritageOne", "18khebratmusamimbold";
+}
+#nav {
+  background-color: #aad2ba;
+}
+#Logo {
+  background: transparent !important;
+  transform: translate(-50%, -25%);
+  /* width: 100%; */
+}
+@media (max-width: 576px) {
+  #Logo {
+    transform: translate(-50%, -20%);
+    max-width: 110%;
+  }
+  .rounded-middle-ar {
+    top: 45% !important;
+  }
+  .rounded-middle-en {
+    top: 49% !important;
+  }
+  .who-we-are {
+    max-width: 40% !important;
+  }
+}
+
+#HeaderOne {
+  color: #136a36;
+  font-size: 4vw;
+  margin: 0;
+}
+#HeaderTwo {
+  color: #136a36;
+  font-size: 2.5vmax;
+  margin: 0;
+}
+.bg-none {
+  background-color: transparent !important ;
+}
+.lang {
+  color: #136a36;
+  font-size: 1.6vmax;
+}
+.hand-cursor {
+  cursor: pointer;
+}
+#first-section-header {
+  z-index: -9999;
+}
+#first-section-header div {
+  color: white;
+  top: 25%;
+  left: 10%;
+  text-shadow: 0 0 3px #136a36, 0 0 5px #136a36;
+  margin: auto;
+}
+#first-section-header .ar {
+  top: 25%;
+  left: 23.2%;
+}
+#first-section-header .en {
+  top: 25%;
+  left: 10.3%;
+}
+#first-section-header div h1 {
+  font-size: 10vmax;
+}
+#first-section-header div h2 {
+  font-size: 7vmax;
+}
+#main-section {
+  background-image: url("../img/First-.png");
+  background-size: 100% 100%;
+}
+.rounded-up {
+  background-image: url("../img/rounded-up.png");
+  background-size: 100% 100%;
+  padding: 2vmax 1vmax 3vmax 1vmax;
+  margin: 10px auto 0px;
+  transition: 0.5s;
+}
+#rounded-up .en {
+  font-size: 1.35vmax;
+}
+#rounded-bottom .en {
+  font-size: 1.4vmax;
+}
+.year {
+  font-family: sans-serif;
+}
+.rounded-bottom {
+  background-image: url("../img/rounded-bottom.png");
+  background-size: 100% 100%;
+  padding: 3vmax 1vmax 4vmax 1vmax;
+  margin: 0px auto 0px;
+  transition: 0.5s;
+}
+.rounded-middle-ar {
+  background-color: #136a36;
+  width: 11vmax;
+  margin: auto;
+  position: absolute;
+  top: 48%;
+  left: 42%;
+  font-size: 1.8vmax;
+  color: white;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  transition: 0.5s;
+  opacity: 1;
+}
+.rounded-middle-en {
+  background-color: #136a36;
+  width: 11vmax;
+  margin: auto;
+  position: absolute;
+  top: 47%;
+  left: 42%;
+  font-size: 1.5vmax;
+  color: white;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  transition: 0.5s;
+  opacity: 1;
+}
+#rounded-middle-string {
+  font-size: 1.5vmax;
+  max-width: 70%;
+  margin: auto;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.7s;
+}
+#rounded-middle-string p {
+  margin: 0px;
+}
+.rounded-body {
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  font-weight: 900;
+  font-size: 2vmax;
+}
+.parg-header {
+  color: #136a36;
+  font-size: 6vmax;
+  margin: 10px 0px 0px 0px;
+}
+.parg-body {
+  color: #1a1818;
+  font-size: 3vmax;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.parg-body-en {
+  color: #1a1818;
+  font-size: 2.5vmax;
+  font-weight: 100;
+  margin: 0px 0px 10px 0px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-header p {
+  color: #136a36;
+  font-size: 3vmax;
+  font-weight: 100;
+}
+.card-body p {
+  font-size: 2vmax;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.card-body .en {
+  font-size: 1.5vmax;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 15px;
+}
+.card-header img {
+  width: 10%;
+}
+.who-we-are{
+  max-width: 80%;
+}
