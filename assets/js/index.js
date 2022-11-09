@@ -88,7 +88,7 @@ function CheckLanguage() {
             <div id="rounded-bottom" class="w-75 rounded-bottom ">
                 <p class="rounded-body  ">
                     تعتبر شركة بيان الرمال للأغذية والمشروبات فرع من كيان أكبر في تخصصات مختلفة
-                    مثل الإاعلام والسياحة والمقاولات 
+                    مثل الإعلام والسياحة والمقاولات 
                 </p>
             </div>
         </div>
