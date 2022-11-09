@@ -20,6 +20,9 @@
 #nav {
   background-color: #aad2ba;
 }
+footer {
+  background-color: #aad2ba;
+}
 #Logo {
   background: transparent !important;
   transform: translate(-50%, -25%);
@@ -39,17 +42,45 @@
   .who-we-are {
     max-width: 40% !important;
   }
+  #footer-items span{
+    padding: 0px 0px !important;
+    font-size: 2.5vw !important;
+  }
+  #footer-items i{
+    padding: 0px 0px !important;
+    font-size: 2.5vw !important;
+
+  }
+  .footer-img {
+    bottom: 100% !important;
+    top: -90px;
+  }
+  #rounded-up .en {
+    font-size: 2.3vw !important;
+  }
+  #rounded-bottom .en {
+    font-size: 2.3vw !important;
+  }
+  .parg-body-en{
+font-size: 4vw !important;
+  }
+  .parg-header{
+    font-size: 11vw !important;
+
+  }
 }
 
 #HeaderOne {
   color: #136a36;
   font-size: 4vw;
   margin: 0;
+  padding: 5px;
 }
 #HeaderTwo {
   color: #136a36;
-  font-size: 2.5vmax;
+  font-size: 3.5vw;
   margin: 0;
+  padding: 5px;
 }
 .bg-none {
   background-color: transparent !important ;
@@ -73,17 +104,17 @@
 }
 #first-section-header .ar {
   top: 25%;
-  left: 23.2%;
+  left: 21%;
 }
 #first-section-header .en {
   top: 25%;
-  left: 10.3%;
+  left: 5%;
 }
 #first-section-header div h1 {
-  font-size: 10vmax;
+  font-size: 11vw;
 }
 #first-section-header div h2 {
-  font-size: 7vmax;
+  font-size: 8vw;
 }
 #main-section {
   background-image: url("../img/First-.png");
@@ -97,10 +128,10 @@
   transition: 0.5s;
 }
 #rounded-up .en {
-  font-size: 1.35vmax;
+  font-size: 1.3vw;
 }
 #rounded-bottom .en {
-  font-size: 1.4vmax;
+  font-size: 1.3vw;
 }
 .year {
   font-family: sans-serif;
@@ -118,7 +149,7 @@
   margin: auto;
   position: absolute;
   top: 48%;
-  left: 42%;
+  left: 40%;
   font-size: 1.8vmax;
   color: white;
   text-shadow: 0 0 3px black, 0 0 5px black;
@@ -154,7 +185,7 @@
   margin: auto;
   text-align: center;
   font-weight: 900;
-  font-size: 2vmax;
+  font-size: 2.1vw;
 }
 .parg-header {
   color: #136a36;
@@ -163,7 +194,7 @@
 }
 .parg-body {
   color: #1a1818;
-  font-size: 3vmax;
+  font-size: 3vw;
   font-weight: 100;
   margin: 0px 0px 10px 0px;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -195,4 +226,29 @@
 }
 .who-we-are{
   max-width: 80%;
+}
+.footer-img{
+  bottom: 20%;
+  left: 10%;
+}
+#footer-items i{
+  color: #136a36;
+  font-size: 2vw;
+  padding: 0px 10px;
+}
+#footer-items span{
+  color: #136a36;
+  font-size: 2vw;
+  padding: 0px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.footer-header-one{
+  color: #136a36;
+  font-size: 4vw;
+  margin: 0;
+}
+.footer-header-two{
+  color: #136a36;
+  font-size: 3.4vw;
+  margin: 0;
 }
