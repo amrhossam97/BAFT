@@ -94,11 +94,11 @@ function CheckLanguage() {
         </div>
         <div class="col-8  mx-auto justify-content-center align-items-center">
         <p class="parg-header d-block text-center w-100">رؤيتنا</p>
-        <p class="parg-body d-block text-center">مواكبة رؤية المملكة٢٠٣٠ والوصول لاعلى مستوى من الجودة في مجال 
+        <p class="parg-body d-block text-center">مواكبة رؤية المملكة٢٠٣٠ والوصول لأعلى مستوى من الجودة في مجال 
             توريد الأغذية والمشروبات </p>
 
         <p class="parg-header d-block text-center w-100">رسالتنا </p>
-        <p class="parg-body d-block text-center">إمداد المنشأت المتخصصة بتقديم الأغذية والمشروبات بمنتجات عالية الجودة طبقاً لأنظمة ومعايير 
+        <p class="parg-body d-block text-center">إمداد المنشآت المتخصصة بتقديم الأغذية والمشروبات بمنتجات عالية الجودة طبقاً لأنظمة ومعايير 
             الجودة والسلامة المطبقة عالمياً </p>
 
         <p class="parg-header d-block text-center w-100">قيمنا </p>
@@ -111,8 +111,8 @@ function CheckLanguage() {
             </div>
             <div class="card-body w-75 m-auto">
                 <p>
-                    تحمل بيان الرمال نفسها المسؤولية التنظيمية لاداء 
-رسالتها باعلى معايير الجودة المطلوبة تجاه منسوبيها وعملائها لتقديم غذاء 
+                    تحمل بيان الرمال نفسها المسؤولية التنظيمية لأداء 
+رسالتها بأعلى معايير الجودة المطلوبة تجاه منسوبيها وعملائها لتقديم غذاء 
 امن للمجتمع
                 </p>
             </div>
@@ -135,7 +135,7 @@ function CheckLanguage() {
                 <p >النزاهة</p>
             </div>
             <div class="card-body w-75 m-auto">
-                <p>ملتزمون بأداء اعمالنا بأمانة وعدل ووفق اعلى 
+                <p>ملتزمون بأداء اعمالنا بأمانة وعدل ووفق أعلى 
                     المعايير الأخلاقية </p>
             </div>
         </div>
@@ -146,7 +146,7 @@ function CheckLanguage() {
             </div>
             <div class="card-body w-75 m-auto">
                 <p>تعمل بيان الرمال علي تعزيز روح التعاون داخل 
-                    المنشأة ومع شركائها أى جهة ذات علاقة مباشرة 
+                    المنشأة ومع شركائها و مع أى جهة ذات علاقة مباشرة 
                     بسلامة الغذاء لحماية الصحة العامة والوقاية 
                     من المرض </p>
             </div>
