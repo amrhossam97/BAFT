@@ -31,15 +31,33 @@ function CheckLanguage() {
     langDiv = document.getElementById("lang"),
     headerDiv = document.getElementById("Header"),
     firstSectionDiv = document.getElementById("first-section-header"),
-    mainSectaionDiv = document.getElementById("main-section");
+    mainSectaionDiv = document.getElementById("main-section"),
+    footerHeaderDiv = document.getElementById("footer-header"),
+    footerItemsDiv = document.getElementById("footer-items");
   if (!lang || lang != "en") {
     document.body.dir = "rtl";
+    footerHeaderDiv.innerHTML = `<p class="footer-header-one">بيان الرمال</p>
+    <p class="footer-header-two">لتوريد الأغذية و المشروبات</p>`;
+    footerItemsDiv.innerHTML = `                <div class="py-1">
+    <span>٠٥٩٦٦٢٠٣٧٧</span>
+    <i class="fa-brands fa-square-whatsapp"></i>
+</div>
+<div class="py-1">
+    <span>info@baft.sa</span>
+
+    <i class="fa-solid fa-square-envelope"></i>
+</div>
+<div class="py-1">
+    <span>baft_1</span>
+
+    <i class="fa-brands fa-square-twitter"></i>
+</div>`
     headerDiv.innerHTML = `<p id="HeaderOne">بيان الرمال</p>
       <p id="HeaderTwo">لتوريد الأغذية و المشروبات</p>`;
 
-    langDiv.innerHTML = `<div class="col-3"></div>
+    langDiv.innerHTML = `
        <img src="/assets/img/Flag_of_Saudi_Arabia.svg.webp"
-           class="border border-0 bg-none col-2 col-xs-3 hand-cursor p-0 " onclick="SetLanguage('en')" />
+           class="border border-0 bg-none col-2 col-xs-3 hand-cursor p-0 m-1 img-fluid " onclick="SetLanguage('en')" />
        <p class="col-3 text-start m-0 p-0 lang hand-cursor ps-2" onclick="SetLanguage('en')">العربية</p>`;
 
     firstSectionDiv.innerHTML = `
@@ -61,8 +79,7 @@ function CheckLanguage() {
                     </p>
             </div>
             <div id="rounded-middle" class=" text-center rounded-pill hand-cursor rounded-middle-ar" onclick="ShowText()">
-                ....اقراء المزيد
-            </div>
+                اقراء المزيد ....</div>
             <div id="rounded-middle-string" class="text-center" onclick="ShowText()">
                 <p>الإعلامي مسلم الرمالي هو المالك لمؤسسة بيان الرمال والتي تم تأسيسها في عام 2015 
                     والتي نسعي لان تصبح كيان يساعد ويساهم في تحقيق اهداف رؤية 2030</p>
@@ -87,7 +104,7 @@ function CheckLanguage() {
         <p class="parg-header d-block text-center w-100">قيمنا </p>
     </div>
     <div class="row text-center container m-auto mb-5">
-        <div class="col-6 ">
+        <div class="col-sm-6 col-xs-12 ">
             <div class="card-header">
                 <img src="/assets/img/Group 252.png" class="img-fluid">
                 <p >المسؤولية</p>
@@ -100,7 +117,7 @@ function CheckLanguage() {
                 </p>
             </div>
         </div>
-        <div class="col-6  ">
+        <div class="col-sm-6 col-xs-12  ">
             <div class="card-header">
                 <img src="/assets/img/Group 255.png" class="img-fluid">
                 <p >التمكين</p>
@@ -112,7 +129,7 @@ function CheckLanguage() {
                     لحماية الصحة العامة وتعزيز سلامة الاغذية</p>
             </div>
         </div>
-        <div class="col-6  ">
+        <div class="col-sm-6 col-xs-12  ">
             <div class="card-header">
                 <img src="/assets/img/Group 257.png" class="img-fluid">
                 <p >النزاهة</p>
@@ -122,7 +139,7 @@ function CheckLanguage() {
                     المعايير الأخلاقية </p>
             </div>
         </div>
-        <div class="col-6 ">
+        <div class="col-sm-6 col-xs-12 ">
             <div class="card-header">
                 <img src="/assets/img/Group 253.png" class="img-fluid">
                 <p >التعاون</p>
@@ -139,13 +156,27 @@ function CheckLanguage() {
     `;
   } else {
     document.body.dir = "ltr";
+    footerHeaderDiv.innerHTML = `<p class="footer-header-one ">Bayan Alrmal</p>
+    <p class="footer-header-two ">For Food & Beverage Supply</p>`;
+    footerItemsDiv.innerHTML = `                <div class="py-1">
+    <i class="fa-brands fa-square-whatsapp"></i>
+    <span>0596620377</span>
+</div>
+<div class="py-1">
+<i class="fa-solid fa-square-envelope"></i>
+    <span>info@baft.sa</span>
 
+</div>
+<div class="py-1">
+<i class="fa-brands fa-square-twitter"></i>
+    <span>baft_1</span>
+</div>`
     headerDiv.innerHTML = `<p id="HeaderOne">Bayan Alrmal</p>
     <p id="HeaderTwo">For Food & Beverage Supply</p>`;
 
-    langDiv.innerHTML = `<div class="col-3"></div>
+    langDiv.innerHTML = `
        <img src="/assets/img/Flag_of_the_United_Kingdom.svg.png"
-           class="border border-0 bg-none col-3 col-sm-2 hand-cursor p-0" onclick="SetLanguage('ar')" />
+           class="border border-0 bg-none col-3 col-sm-2 hand-cursor p-0 m-1 img-fluid" onclick="SetLanguage('ar')" />
        <p class=" ps-2 col-3 text-start m-0 p-0 lang hand-cursor" onclick="SetLanguage('en')">English</p>`;
 
     firstSectionDiv.innerHTML = `
@@ -190,7 +221,7 @@ function CheckLanguage() {
    <p class="parg-header d-block text-center w-100">Our Values </p>
 </div>
 <div class="row text-center container m-auto mb-5">
-   <div class="col-6 ">
+   <div class="col-sm-6 col-xs-12">
        <div class="card-header">
            <img src="/assets/img/Group 252.png" class="img-fluid">
            <p >Responsibility</p>
@@ -199,7 +230,7 @@ function CheckLanguage() {
            <p class="en">Bayan Alrmal bears the organizational responsibility to perform its mission with the highest quality standards required towards its employees and customers to provide safe food for the community.</p>
        </div>
    </div>
-   <div class="col-6">
+   <div class="col-sm-6 col-xs-12">
        <div class="card-header">
            <img src="/assets/img/Group 255.png" class="img-fluid">
            <p >Empowerment</p>
@@ -209,7 +240,7 @@ function CheckLanguage() {
        </div>
    </div>
 
-   <div class="col-6">
+   <div class="col-sm-6 col-xs-12">
        <div class="card-header">
            <img src="/assets/img/Group 253.png" class="img-fluid">
            <p >Cooperate</p>
@@ -218,7 +249,7 @@ function CheckLanguage() {
            <p class="en">Bayan Alrmal works to enhance the spirit of cooperation within the facility with its partners and any party directly related to food safety to protect public health and prevent disease.</p>
        </div>
    </div>
-   <div class="col-6">
+   <div class="col-sm-6 col-xs-12">
    <div class="card-header">
        <img src="/assets/img/Group 257.png" class="img-fluid">
        <p >Integrity </p>
