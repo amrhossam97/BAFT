@@ -56,19 +56,19 @@ function CheckLanguage() {
       <p id="HeaderTwo">لتوريد الأغذية و المشروبات</p>`;
 
     langDiv.innerHTML = `
-       <img src="/assets/img/Flag_of_Saudi_Arabia.svg.webp"
+       <img src="/assets/img/Flag_of_Saudi_Arabia.svg.webp" alt="arabic"
            class="border border-0 bg-none col-2 col-xs-3 hand-cursor p-0 m-1 img-fluid " onclick="SetLanguage('en')" />
        <p class="col-3 text-start m-0 p-0 lang hand-cursor ps-2" onclick="SetLanguage('en')">العربية</p>`;
 
     firstSectionDiv.innerHTML = `
-    <img src="/assets/img/selecting-wheat-varieties_870x580.jpeg" class="img-fluid px-0 w-100">
+    <img src="/assets/img/selecting-wheat-varieties_870x580.jpeg" class="img-fluid px-0 w-100" alt="background">
     <div class="position-absolute ar">
     <h1>بيان الرمال</h1>
     <h2> لتوريد الأغذية و المشروبات</h2></div>`;
 
     mainSectaionDiv.innerHTML = `
     <div class="col-12 col-sm-4 my-3 mx-auto justify-content-center align-items-center d-flex">
-    <img src="/assets/img/whoAreWeAR.png" class="img-fluid who-we-are ">
+    <img src="/assets/img/whoAreWeAR.png" class="img-fluid who-we-are " alt="who are we">
 </div>
         <div class="col-12 col-sm-8  m-auto my-5 position-relative ">
             <div id="rounded-up" class="rounded-up w-75  ">
@@ -106,7 +106,7 @@ function CheckLanguage() {
     <div class="row text-center container m-auto mb-5">
         <div class="col-sm-6 col-xs-12 ">
             <div class="card-header">
-                <img src="/assets/img/Group 252.png" class="img-fluid">
+                <img src="/assets/img/Group 252.png" class="img-fluid" alt="responsibility">
                 <p >المسؤولية</p>
             </div>
             <div class="card-body w-75 m-auto">
@@ -119,7 +119,7 @@ function CheckLanguage() {
         </div>
         <div class="col-sm-6 col-xs-12  ">
             <div class="card-header">
-                <img src="/assets/img/Group 255.png" class="img-fluid">
+                <img src="/assets/img/Group 255.png" class="img-fluid" alt="empowerment">
                 <p >التمكين</p>
             </div>
             <div class="card-body w-75 m-auto">
@@ -131,7 +131,7 @@ function CheckLanguage() {
         </div>
         <div class="col-sm-6 col-xs-12  ">
             <div class="card-header">
-                <img src="/assets/img/Group 257.png" class="img-fluid">
+                <img src="/assets/img/Group 257.png" class="img-fluid" alt="integrity">
                 <p >النزاهة</p>
             </div>
             <div class="card-body w-75 m-auto">
@@ -141,7 +141,7 @@ function CheckLanguage() {
         </div>
         <div class="col-sm-6 col-xs-12 ">
             <div class="card-header">
-                <img src="/assets/img/Group 253.png" class="img-fluid">
+                <img src="/assets/img/Group 253.png" class="img-fluid" alt="cooperate">
                 <p >التعاون</p>
             </div>
             <div class="card-body w-75 m-auto">
@@ -175,19 +175,19 @@ function CheckLanguage() {
     <p id="HeaderTwo">For Food & Beverage Supply</p>`;
 
     langDiv.innerHTML = `
-       <img src="/assets/img/Flag_of_the_United_Kingdom.svg.png"
+       <img src="/assets/img/Flag_of_the_United_Kingdom.svg.png" alt="english"
            class="border border-0 bg-none col-3 col-sm-2 hand-cursor p-0 m-1 img-fluid" onclick="SetLanguage('ar')" />
        <p class=" ps-2 col-3 text-start m-0 p-0 lang hand-cursor" onclick="SetLanguage('en')">English</p>`;
 
     firstSectionDiv.innerHTML = `
-       <img src="/assets/img/selecting-wheat-varieties_870x580.jpeg" class="img-fluid px-0 w-100">
+       <img src="/assets/img/selecting-wheat-varieties_870x580.jpeg" class="img-fluid px-0 w-100" alt="background">
        <div class="position-absolute en">
        <h1>Bayan Alrmal</h1>
        <h2> For Food & Beverage Supply</h2></div>`;
 
     mainSectaionDiv.innerHTML = `
        <div class="col-12 col-sm-4  mx-auto justify-content-center align-items-center d-flex">
-       <img src="/assets/img/whoWeAreEN.png" class="img-fluid who-we-are">
+       <img src="/assets/img/whoWeAreEN.png" class="img-fluid who-we-are" alt="who are we">
    </div>
        <div class="ccol-12 col-sm-8 m-auto my-5 position-relative ">
            <div id="rounded-up" class="rounded-up w-75  ">
@@ -223,7 +223,7 @@ function CheckLanguage() {
 <div class="row text-center container m-auto mb-5">
    <div class="col-sm-6 col-xs-12">
        <div class="card-header">
-           <img src="/assets/img/Group 252.png" class="img-fluid">
+           <img src="/assets/img/Group 252.png" class="img-fluid" alt="responsibility">
            <p >Responsibility</p>
        </div>
        <div class="card-body w-75 m-auto">
@@ -232,7 +232,7 @@ function CheckLanguage() {
    </div>
    <div class="col-sm-6 col-xs-12">
        <div class="card-header">
-           <img src="/assets/img/Group 255.png" class="img-fluid">
+           <img src="/assets/img/Group 255.png" class="img-fluid" alt="empowerment">
            <p >Empowerment</p>
        </div>
        <div class="card-body w-75 m-auto">
@@ -242,7 +242,7 @@ function CheckLanguage() {
 
    <div class="col-sm-6 col-xs-12">
        <div class="card-header">
-           <img src="/assets/img/Group 253.png" class="img-fluid">
+           <img src="/assets/img/Group 253.png" class="img-fluid" alt="cooperate">
            <p >Cooperate</p>
        </div>
        <div class="card-body w-75 m-auto">
@@ -251,7 +251,7 @@ function CheckLanguage() {
    </div>
    <div class="col-sm-6 col-xs-12">
    <div class="card-header">
-       <img src="/assets/img/Group 257.png" class="img-fluid">
+       <img src="/assets/img/Group 257.png" class="img-fluid" alt="integrity">
        <p >Integrity </p>
    </div>
    <div class="card-body w-75 m-auto">
