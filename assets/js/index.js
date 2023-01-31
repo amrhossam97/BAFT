@@ -2,6 +2,16 @@ function SetLanguage(lang) {
   window.localStorage.setItem("Lang", lang);
   window.location = window.location.href;
 }
+function goToWebsite(title) {
+  switch (title) {
+    case "twitter":
+      window.location = "https://twitter.com/BAFT_1";
+      break;
+
+    default:
+      break;
+  }
+}
 let textShown = false;
 let lang = window.localStorage.getItem("Lang");
 function ShowText() {
@@ -47,11 +57,11 @@ function CheckLanguage() {
 
     <i class="fa-solid fa-square-envelope"></i>
 </div>
-<div class="py-1">
-    <span>baft_1</span>
+<div class="py-1 hand-cursor" >
+    <span onclick="goToWebsite('twitter')">baft_1</span>
 
-    <i class="fa-brands fa-square-twitter"></i>
-</div>`
+    <i class="fa-brands fa-square-twitter" onclick="goToWebsite('twitter')"></i>
+</div>`;
     headerDiv.innerHTML = `<p id="HeaderOne">بيان الرمال</p>
       <p id="HeaderTwo">لتوريد الأغذية و المشروبات</p>`;
 
@@ -153,6 +163,21 @@ function CheckLanguage() {
         </div>
         
     </div>
+    <div> 
+    </div>
+    <p class="parg-header d-block text-center w-100">عملاء نعتز بهم</p>
+    <div class="col-sm-4 col-6 d-flex justify-content-center ">
+    <a class="my-auto p-4" href="https://www.menahoteltabuk.com/"><img class="img-fluid" src="https://image-tc.galaxy.tf/wipng-1p7typcpx51gw5p7ots3d35wx/mena-tabuk-logo.png?width=500"></a>
+</div>  
+<div class="col-sm-4 col-6 d-flex justify-content-center ">
+    <a class="my-auto p-4" href="https://www.goldentulip.com/en-us/"><img class="img-fluid" src="https://www.alhokair.com/Images/Hotels/635953829377609722.jpg"></a>
+
+</div>
+<div class="col-sm-4 col-12 d-flex justify-content-center ">
+    <a class="my-auto w-100 p-4" href="https://www.millenniumhotels.com/"><img class="img-fluid" src="https://www.millenniumhotels.com/assets/img/MHR-logo-20221205.svg"></a>
+</div>              
+          
+
     `;
   } else {
     document.body.dir = "ltr";
@@ -167,10 +192,10 @@ function CheckLanguage() {
     <span>info@baft.sa</span>
 
 </div>
-<div class="py-1">
-<i class="fa-brands fa-square-twitter"></i>
-    <span>baft_1</span>
-</div>`
+<div class="py-1 hand-cursor">
+<i onclick="goToWebsite('twitter')" class="fa-brands fa-square-twitter"></i>
+    <span onclick="goToWebsite('twitter')">baft_1</span>
+</div>`;
     headerDiv.innerHTML = `<p id="HeaderOne">Bayan Alrmal</p>
     <p id="HeaderTwo">For Food & Beverage Supply</p>`;
 
@@ -185,7 +210,8 @@ function CheckLanguage() {
        <h1>Bayan Alrmal</h1>
        <h2> For Food & Beverage Supply</h2></div>`;
 
-    mainSectaionDiv.innerHTML = `
+    mainSectaionDiv.innerHTML =
+      `
        <div class="col-12 col-sm-4  mx-auto justify-content-center align-items-center d-flex">
        <img src="/assets/img/whoWeAreEN.png" class="img-fluid who-we-are" alt="who are we">
    </div>
@@ -211,7 +237,8 @@ function CheckLanguage() {
        </div>
        
        
-   `+`<div class="col-8 mt-5 mx-auto justify-content-center align-items-center">
+   ` +
+      `<div class="col-8 mt-5 mx-auto justify-content-center align-items-center">
    <p class="parg-header d-block text-center w-100">Our Vision</p>
    <p class="parg-body-en d-block text-center">Keeping pace with the Kingdom's <span class="year">2030</span> vision and reaching the highest quality in the field of food and beverage supply.</p>
 
@@ -259,6 +286,18 @@ function CheckLanguage() {
    </div>
 </div>
    
-</div>`;
+</div>
+<p class="parg-header d-block text-center w-100">Clients We Cherish</p>
+<div class="col-sm-4 col-6 d-flex justify-content-center ">
+    <a class="my-auto p-4" href="https://www.menahoteltabuk.com/"><img class="img-fluid" src="https://image-tc.galaxy.tf/wipng-1p7typcpx51gw5p7ots3d35wx/mena-tabuk-logo.png?width=500"></a>
+</div>  
+<div class="col-sm-4 col-6 d-flex justify-content-center ">
+    <a class="my-auto p-4" href="https://www.goldentulip.com/en-us/"><img class="img-fluid" src="https://www.alhokair.com/Images/Hotels/635953829377609722.jpg"></a>
+
+</div>
+<div class="col-sm-4 col-12 d-flex justify-content-center ">
+    <a class="my-auto p-4 w-100" href="https://www.millenniumhotels.com/"><img class="img-fluid" src="https://www.millenniumhotels.com/assets/img/MHR-logo-20221205.svg"></a>
+
+</div>   `;
   }
 }

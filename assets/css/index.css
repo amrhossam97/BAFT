@@ -42,14 +42,13 @@ footer {
   .who-we-are {
     max-width: 40% !important;
   }
-  #footer-items span{
+  #footer-items span {
     padding: 0px 0px !important;
     font-size: 2.5vw !important;
   }
-  #footer-items i{
+  #footer-items i {
     padding: 0px 0px !important;
     font-size: 2.5vw !important;
-
   }
   .footer-img {
     bottom: 100% !important;
@@ -61,12 +60,11 @@ footer {
   #rounded-bottom .en {
     font-size: 2.3vw !important;
   }
-  .parg-body-en{
-font-size: 4vw !important;
+  .parg-body-en {
+    font-size: 4vw !important;
   }
-  .parg-header{
+  .parg-header {
     font-size: 11vw !important;
-
   }
 }
 
@@ -119,6 +117,7 @@ font-size: 4vw !important;
 #main-section {
   background-image: url("../img/First-.png");
   background-size: 100% 100%;
+  padding-bottom: 100px;
 }
 .rounded-up {
   background-image: url("../img/rounded-up.png");
@@ -224,30 +223,30 @@ font-size: 4vw !important;
 .card-header img {
   width: 10%;
 }
-.who-we-are{
+.who-we-are {
   max-width: 80%;
 }
-.footer-img{
+.footer-img {
   bottom: 20%;
   left: 10%;
 }
-#footer-items i{
+#footer-items i {
   color: #136a36;
   font-size: 2vw;
   padding: 0px 10px;
 }
-#footer-items span{
+#footer-items span {
   color: #136a36;
   font-size: 2vw;
   padding: 0px 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
-.footer-header-one{
+.footer-header-one {
   color: #136a36;
   font-size: 4vw;
   margin: 0;
 }
-.footer-header-two{
+.footer-header-two {
   color: #136a36;
   font-size: 3.4vw;
   margin: 0;
