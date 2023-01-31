@@ -1,15 +1,23 @@
 {
-  "name": "BAFT",
+  "name": "baft",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-      "test": ""
+    "test": ""
   },
   "keywords": [],
-  "author": "",
+  "author": "Amr",
   "license": "ISC",
   "dependencies": {
-      "express": "^4.18.4"
-  }
+    "express": "^4.18.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amrhossam97/BAFT.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amrhossam97/BAFT/issues"
+  },
+  "homepage": "https://github.com/amrhossam97/BAFT#readme",
+  "description": ""
 }
