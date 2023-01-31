@@ -287,7 +287,7 @@ function CheckLanguage() {
 </div>
    
 </div>
-<p class="parg-header d-block text-center w-100">Clients We Cherish</p>
+<p class="parg-header d-block text-center w-100">Clients we appreciate</p>
 <div class="col-sm-4 col-6 d-flex justify-content-center ">
     <a class="my-auto p-4" href="https://www.menahoteltabuk.com/"><img class="img-fluid" src="https://image-tc.galaxy.tf/wipng-1p7typcpx51gw5p7ots3d35wx/mena-tabuk-logo.png?width=500"></a>
 </div>  
